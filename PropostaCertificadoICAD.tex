@@ -1,0 +1,270 @@
+\documentclass{article}
+\usepackage[bottom=2cm,top=3cm,left=3cm,right=2cm]{geometry}
+\usepackage{graphicx, indentfirst} %,color}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{advdate}
+
+\newcommand{\aluno}{Nome do Aluno}
+\newcommand{\tutor}{Nome do Tutor}
+\newcommand{\departamento}{Departamento}
+\newcommand{\matricula}{Matricula}
+\newcommand{\curso}{Curso} %OBS: Conferir as matérias de tópicos
+% Conferir também a parte de contexto institucional, exigências curriculares
+% As diretrizes da resolução 001/2008, se são aplicáveis ao curso
+
+
+\begin{document}
+	\AdvanceDate[0] % Se precisar gerar o documento com a data mais para frente
+	\begin{titlepage}
+		\vfill
+		{
+			\centering
+			\bfseries\LARGE
+			Universidade Federal de Minas Gerais\\
+			\vfill
+			\includegraphics[width=4cm]{logoUFMG.pdf} \\
+			\vfill
+			\Huge{Proposta para Certificado de Estudos em Inteligência Computacional e Análise de Dados}\\
+			\vskip4cm
+		}
+		
+		\begin{flushleft}
+			\textbf{Aluno:} \aluno \\
+			\textbf{Matrícula:} \matricula \\
+			\textbf{Graduação:} \curso \\
+			\textbf{Tutor:} \tutor \\
+		\end{flushleft}
+		
+		\vfill
+		\vfill
+		\centering
+		\today
+	\end{titlepage}
+	
+	\tableofcontents \vfill \vfill \pagebreak
+	
+	\section{Introdução} \label{sec:Int}
+	O presente documento propõe a criação de um Certificado de Estudos em Inteligência Computacional e Análise de Dados pelo aluno \aluno - regularmente matriculado nesta instituição sob o número de matrícula \matricula. Propõe-se, por meio deste, um Certificado de Estudos Aberto direcionado para a área de Inteligência Computacional e Análise de Dados conforme as diretrizes estabelecidas na resolução 001/2008, que dispõe sobre a realização de Certificados de Estudos Abertos, quanto no Projeto Político Pedagógico do Curso de \curso. \par
+	A estruturação deste documento foi feita da seguinte maneira: na seção \ref{sec:Cont} é apresentada uma contextualização cujos temas abordados são o contexto institucional que possiblitou o surgimento de Certificados de Estudos Abertos e também suas exigências curriculares; a seção \ref{sec:Fund} discorre sobre os fundamentos do Certificado de Estudos em Inteligência Computacional e Análise de Dados além de apresentar um panorama da área em outras instituições e no mercado de trabalho; na seção \ref{sec:Carc} é apresentada uma proposta das características curriculares do certificado; as disciplinas que selecionadas pelo aluno para compor o certificado são apresentadas na seção \ref{sec:Conj}; são feitas ainda considerações sobre o Certificado de Estudos em Computação na seção \ref{sec:Comp}. 
+	
+	\section{Contextualização} \label{sec:Cont}
+	Na área de computação, é notório o crescimento da necessidade de se resolver problemas reais cuja complexidade é muito grande. Em diversos casos, não é viável a realização de uma modelagem matemática, sendo, portanto, necessários outros paradigmas para a resolução de tais problemas. Entende-se por Inteligência Computacional uma série de metodologias e abordagens para resolver esses tipos de problemas.
+	Os métodos utilizados na área de Inteligência Computacional geralmente se baseiam em 5 técnicas principais: Lógica Difusa, Redes Neurais Artificiais, Computação Evolucionária, Teoria de Aprendizado e Métodos Probabilísticos. Essas 5 técnicas se mostram ferramentas muito poderosas para a resolução de problemas complexos, haja vista que são capazes de solucionar diversos problemas que a computação tradicional não consegue resolver.  \par
+	As aplicações de Inteligência Computacional são muito frequentes em Análise de Dados, Ciência da Computação, Engenharias e Biomedicina. Algumas delas são: Processamento de Imagens, Detecção de Faltas, Reconhecimento de Padrões, Otimização, Análise de DNA, Diagnóstico Assistido por Computador, Aprendizado de Máquina, entre outras. \par
+	Sendo essa uma área de crescimento recente, é natural que à época da definição dos Certificados de Estudos da Graduação em \curso não fosse tão relevante a criação de um Certificado de Estudos em Inteligência Computacional e Análise de Dados. Entretanto, de maneira bastante coerente com a rapidez com a qual a ciência e a tecnologia se desenvolvem na atualidade, foram propostos meios de se flexibilizar um pouco o currículo de tal maneira que seja possível contemplar crescentes tendências e áreas relevantes à formação de engenheiros eletricistas por meio de Certificados de Estudos Abertos.
+	
+	\subsection{Contexto institucional}
+	A Lei de Diretrizes e Bases (Lei no. 9.394/1996) se pauta em uma perspectiva interdisciplinar para a estruturação curricular do ensino. Dessa forma, foi necessário a adequação das instituições de ensino superior brasileiras para que fosse permitida a integração de diferentes áreas do conhecimento. Um meio de se realizar essa integração é flexibilizar o currículo, o que é favorecido pela estrutura ampla da Universidade e aumenta a integração entre suas faculdades. \par
+	O atual Projeto Político Pedagógico do Curso de \curso foi lançado em 2009 pelo Colegiado de Graduação do curso. Nese projeto, foi feita uma estrutura curricular mais flexível, para oferecer uma formação diversificada, atual e dinâmica. Essa iniciativa foi baseada nas diretrizes de flexibilização curricular da Pró-Reitoria de Graduação da UFMG. Por meio dela foi possível mais liberdade na construção do percurso acadêmico pelos alunos, redução na carga horária obrigatória, a possibilidade de formação complementar em outras áreas da Engenharia, a integralização curricular de atividades acadêmicas diversificadas e também a integração entre Graduação e Pós-Graduação. \par
+	Os Certificados de Estudos Abertos são os maiores responsáveis pela flexibilização no currículo da \curso. Equivalentes à Formação complementar aberta prevista pelas diretrizes de flexibilização da Pró-Reitoria de Graduação, eles são parte integrante do atual Projeto Político-Pedagógico do Curso e são regulamentados pela Resolução 001/2008.
+	
+	\subsection{Exigências curriculares}
+	De acordo com o Projeto Político-Pedagógico, todo aluno do curso de \curso \  da UFMG deve cursar pelo menos um Certificado de Estudos, podendo ele selecionar um dos cinco Certificados de Estudos pré-estabelecidos ou desenvolver um Certificado de Estudos Aberto, que reúna atividades acadêmicas da \curso \ e de outras áreas do conhecimento de maneira coerente. Para que isso seja feito, o aluno deve elaborar um projeto que descreva adequadamente o certificado, suas disciplinas - mostrando sua relação com o curso de \curso. Esse projeto deve ser então submetido à aprovação do Colegiado de \curso. Para auxílio do aluno tanto na construção do projeto do Certificado de Estudos Aberto, quanto ao longo da trajetória acadêmica do discente, deve ser procurado um professor tutor pelo aluno. Para integralização de um Certificado Aberto ou de qualquer Certificado de Estudos pré-estabelecido, são necessários no mínimo 38 créditos em disciplinas específicas do Certificado, além de um trabalho de conclusão de curso.
+	
+	\section{Fundamentação} \label{sec:Fund}
+	
+	\subsection{Objetivos}
+	Esse Certificado de Estudos tem como objetivo formar alunos do Curso de Graduação em \curso \ aptos a atuar nas áreas de Inteligência Computacional e Análise de Dados ou em qualquer outro campo da \curso \ sem qualquer prejuízo em relação a outros Certificados de Estudos tradicionais.
+	
+	\subsection{Relevância}
+	Em computação, as áreas de Inteligência Computacional e Análise de Dados tem cada vez maior destaque. Seu crescimento provém tanto da oferta de formação acadêmica e de pesquisa, quanto de damandas do mercado de trabalho. A relevância da formação de profissionais habilitados a atuar nessas áreas pode ser demonstrada por meio da exposição tanto da demanda do mercado de trabalho, quanto das ofertas de formação acadêmica. 
+	
+	\subsubsection{Demanda do mercado de trabalho}
+	A área de Inteligência Computacional é muito ampla e contempla diversas áreas do conhecimento -incluindo a área de Análise de Dados- devido às inúmeras aplicações de seus métodos para a resolução de problemas, tais como: Detecção de fraudes; Previsão, detecção e diagnóstico de faltas nos mais diversos sistemas; Recomendações de ofertas; Diagnósticos médicos; Análise de grandes volumes de dados; Detecção de invasão em redes; Detecção de objetos e visão computacional; Processamento da fala;  além de outras diversas aplicações. Hoje há uma demanda muito grande por profissionais que saibam analisar grandes volumes de dados, já que a disponibilidade de dados se torna cada vez maior com o advento da internet. Para resolver esse tipo de problema, utiliza-se a Análise de Dados, que na maioria das vezes, faz o uso de técnicas desenvolvidas dentro da área de Inteligência Computacional.
+	
+	\subsubsection{Oferta de formação acadêmica}
+	Primeiramente, é necessário salientar que a nomenclatura da área não é um consenso entre os pesquisadores. Entretanto, as possíveis diferenças reais entre Inteligência Computacional e Inteligência Artificial são completamente irrelevantes para esse contexto. \par
+	Para avaliar as ofertas de formação acadêmica, primeiramente foram avaliadas as universidades brasileiras mais influentes em relação a cursos, laboratórios e áreas de pesquisa. Posteriormente, foi feita uma avaliação da situação da área no exterior. As universidades brasileiras avaliadas foram: UFMG, USP, UFSCar, Unicamp, UFRJ e UNB. \par 
+	Na graduação, foi observado que cursos de \curso \ geralmente não contemplam de maneira satisfatória os temas de Inteligência Computacional, que geralmente são abordados em cursos de Ciência da Computação, Engenharia de Sistemas ou cursos afins. Não é incomum a presença dessa área em programas de pós-graduação de \curso. Essa situação mostra que essa área é relevante ao curso de graduação de \curso, e pode ser incluída no nível de graduação sem demais problemas, já que outros cursos já o fazem. \par 
+	Já em instituições de outros países, principalmente da Europa e dos Estados Unidos, é observado que há muita oferta de cursos de mestrado em Ingeligência Artificial, Inteligência Computacional e também em Análise de Dados. Entretanto, devido à assinatura do Documento de Bolonha, e observando o currículo dos cursos de Graduação e Pós-Graduação desses países, percebe-se que, neles, o mestrado é cursado por alunos que possuem um nível de formação similar a alunos que iniciam seus Certificados de Estudos aqui na UFMG. Dessa maneira, um Certificado de Estudos em Inteligência Computacional e Análise de Dados, estaria condizente com o contexto educacional global.
+	
+	\section{Caracterização do Certificado de Estudos} \label{sec:Carc}
+	Inteligência Computacional e Análise de Dados são áreas com uma gama grande de assuntos. Portanto, não é possível ainda na graduação se esgotar todos eles, já que seria demandado um tempo do qual não se dispõe. No contexto de um Certificado de Estudos, é necessário então, abordar a maioria dos temas para que se tenha uma sólida introdução ao assunto. Dessa forma, um possível estudo posterior pode ser feito sem que haja qualquer dificuldade para o aprofundamento ou a especialização em algum assunto particular.
+	
+	\subsection{Habilidades do profissional}
+	Um profissional apto a trabalhar com Inteligência Computacional e Análise de Dados não deve ser somente capaz de implementar os métodos estudados, mas também ter uma base sólida, que o permita estar sempre atualizado na área - para isso, conseguir ler e entender artigos recentes sobre o assunto, além de ter a capacidade para resolver problemas similares. Muitas vezes é necessário se especializar em alguma técnica ou em alguma função, entretanto, como um certificado de estudos do nível de graduação, não é esse o objetivo.
+	
+	\subsection{Disciplinas do certificado em Inteligência Computacional e Análise de Dados} \label{sec:Disc}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|p{0.5\linewidth}|c|c|c|}\hline
+			\textbf{Código} & \textbf{Disciplina} & \textbf{Tipo} & \textbf{C.H.} & \textbf{Créd.} \\ \hline
+			\multicolumn{5}{|c|}{\textbf{Disciplinas obrigatórias do certificado}} \\ \hline
+			ELT075 & Redes Neurais Artificiais & OB & 30h & 2 \\ \hline
+			ELE037 & Otimização & OB & 60h & 4 \\ \hline
+			EEE009 & Tópicos em \curso C: Introdução ao Reconhecimento de Padrões & OB & 60h & 4 \\ \hline
+			EPD894 & Modelos de Regressão Paramétricos e Não-Paramétricos: Teoria e Aplicações & OB & 60h & 4 \\ \hline
+			\multicolumn{5}{|c|}{\textbf{Disciplinas optativas do certificado}} \\ \hline
+			ELE075 & Sistemas Nebulosos & OPE & 30h & 2 \\ \hline
+			%EEE043 & Sistemas Especialistas & OPE & 30h & 2 \\ \hline
+			ELT037 & Multimídia & OPE & 45h & 3 \\ \hline
+			ELE036 & Aplicações de Processamento Paralelo & OPE & 45h & 3 \\ \hline
+			DCC011 & Introdução a Bancos de Dados & OPE & 60h & 4 \\ \hline
+			ELE083 & Computação Evolucionária & OPE & 30h & 2 \\ \hline
+			ELE093 & Modelos Estatísticos e Inferência & OPE & 45h & 3 \\ \hline
+			EEE901 & Introdução à Inteligência Computacional & OPE & 60h & 4 \\ \hline
+			%EEE950 & Redes Neurais Artificiais: Teoria e Aplicações & OPE & 60h & 4 \\ \hline
+			%EEE882 & Computação Evolucionária & OPE & 60h & 4 \\ \hline
+			EST011 & Estatística Multivariada & OPE & 60h & 4 \\ \hline
+			EST034 & Estatística Geral & OPE & 60h & 4 \\ \hline
+			%EST080 & Estatística Não Paramétrica & OPE & 60h & 4 \\ \hline
+			DCC030 & Tópicos em Ciência da Computação: Fundamentos Estatísticos para Ciência dos Dados & OPE & 60h & 4 \\ \hline
+			DCC191 & Computação Natural & OPE & 60h & 4 \\ \hline
+			DCC057 & Mineração de Dados & OPE & 60h & 4 \\ \hline
+			DCC028 & Inteligência Artificial & OPE & 60h & 4 \\ \hline
+			\multicolumn{4}{|r|}{\textbf{Número total de créditos}} & 59 \\ \hline
+			
+		\end{tabular}
+		\caption{Conjunto de disciplinas que formam o Certificado de Estudos em Inteligência Computacional e Análise de Dados}
+		\label{tab:Disc}
+	\end{table}
+	
+	\section{Conjunto de disciplinas do certificado de estudos em Inteligência Computacional e Análise de Dados} \label{sec:Conj}
+	Esta seção apresenta o conjunto de disciplinas selecionadas pelo aluno para compor o Certificado de Estudos em Inteligência Computacional e Análise de Dados.
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|p{0.5\linewidth}|c|c|c|c|}\hline
+			\textbf{Código} & \textbf{Disciplina} & \textbf{Tipo} & \textbf{C.H.} & \textbf{Créd.} & \textbf{Cursada} \\ \hline
+			\multicolumn{6}{|c|}{\textbf{Disciplinas obrigatórias do certificado}} \\ \hline
+			ELT075 & Redes Neurais Artificiais & OB & 30h & 2 & Sim \\ \hline
+			ELE037 & Otimização & OB & 60h & 4 & Sim \\ \hline
+			EEE009 & Tópicos em \curso C: Introdução ao Reconhecimento de Padrões & OB & 60h & 4 & Não \\ \hline
+			EPD894 & Modelos de Regressão Paramétricos e Não-Paramétricos: Teoria e Aplicações & OB & 60h & 4 & Não\\ \hline
+			\multicolumn{6}{|c|}{\textbf{Disciplinas optativas específicas do certificado}} \\ \hline
+			ELE075 & Sistemas Nebulosos & OPE & 30h & 2 & Não \\ \hline
+			%EEE043 & Sistemas Especialistas & OPE & 30h & 2 & Não \\ \hline
+			ELT037 & Multimídia & OPE & 45h & 3 & Sim \\ \hline
+			ELE036 & Aplicações de Processamento Paralelo & OPE & 45h & 3 & Não \\ \hline
+			DCC011 & Introdução a Bancos de Dados & OPE & 60h & 4 & Sim \\ \hline
+			%ELE083 & Computação Evolucionária & OPE & 30h & 2 & Não \\ \hline
+			%ELE093 & Modelos Estatísticos e Inferência & OPE & 45h & 3 & Não \\ \hline
+			EEE901 & Introdução à Inteligência Computacional & OPE & 60h & 4 & Não \\ \hline
+			%EEE950 & Redes Neurais Artificiais: Teoria e Aplicações & OPE & 60h & 4 & Não \\ \hline
+			%EEE882 & Computação Evolucionária & OPE & 60h & 4 & Não \\ \hline
+			DCC030 & Tópicos em Ciência da Computação: Fundamentos Estatísticos para Ciência dos Dados & OPE & 60h & 4 & Não \\ \hline
+			DCC191 & Computação Natural & OPE & 60h & 4 & Não \\ \hline
+			%EST034 & Estatística Geral & OPE & 60h & 4 & Não \\ \hline
+			%EST011 & Estatística Multivariada & OPE & 60h & 4 & Não \\ \hline
+			%EST080 & Estatística Não Paramétrica & OPE & 60h & 4 & Não \\ \hline
+			%DCC057 & Mineração de Dados & OPE & 60h & 4 & Não \\ \hline
+			%DCC028 & Inteligência Artificial & OPE & 60h & 4 & Não \\ \hline
+			\multicolumn{4}{|r|}{\textbf{Número total de créditos}} & \multicolumn{1}{|c}{38} & \multicolumn{1}{c|}{ } \\ \hline
+			
+		\end{tabular}
+		\caption{Conjunto de disciplinas selecionadas pelo aluno para cursar}
+		\label{tab:DscSel}
+	\end{table}
+	
+	A seguir são apresentadas as ementas das disciplinas da Tabela \ref{tab:DscSel} e a justificativa para a inclusão delas no certificado. \\
+	% Redes Neurais Artificiais
+	\textbf{ELT075 - Redes Neurais Artificiais} \\
+	Ementa: Modelo MCP. Modelos sem peso. Memória de matriz de correlação. "Perceptrons". "Back propagation". Redes de Hopfield. Máquina de Boltzmann. Modelos recorrentes. Identificação, supervisão e controle de processos utilizando redes neurais artificiais. \\
+	Justificativa: O estudo de Redes Neurais Artificiais se mostra essencial à área de Inteligência Computacional por se tratar de um dos pontos chaves dessa área. \\
+	%Otimização
+	\textbf{ELE037 - Otimização}\\
+	Ementa: Formulação de problemas de otimização. Propriedades geométricas dos espaços de busca: convexidade, diferenciabilidade, n-modalidade. Condições de otimalidade. Programação não-linear: métodos determinísticos, métodos estocásticos. Programação linear. Aplicações \\
+	Justificativa: Métodos de otimização são frequentemente necessários em problemas de inteligência computacional, além de ser também objeto de estudo da área. Alguns métodos de otimização utilizam algoritmos evolutivos, outro tópico de estudo de Inteligência Computacional.  \\
+	%Reconhecimento de Padrões
+	\textbf{EEE009 - Tópicos em \curso C: Introdução ao Reconhecimento de Padrões} \\
+	Ementa: Fundamentos Matemáticos, Sistemas de reconhecimento de padrões, Coleta de dados e seleção de modelos, Regra de Bayes, Problema de duas classes, Máxima verossimilhança, Modelos de Markov, Técnicas não paramétricas, K vizinhos mais próximos, Métricas para cálculo de distâncias, Funções discriminantes lineares e não-lineares, Métodos estocásticos, Árvores de decisão, Métodos baseados em regras. Validação e comparação de classificadores. \\
+	Justificativa: Reconhecimento de Padrões é um conjunto de técnicas capazes de resolver um grande número de problemas de Inteligência Computacional. \\
+	% Modelos de Regressão Paramétricos e Não-Paramétricos
+	\textbf{EPD894 - Modelos de Regressão Paramétricos e Não-Paramétricos: Teoria e Aplicações (Pós-graduação)} \\
+	Ementa: Modelos de Regressão Linear. Regressão Linear Simples. Regressão Linear Múltipla. Modelos Polinomiais. Transformação de Variáveis. Modelos Lineares Generalizados. Família exponencial. Ajuste pelo método de Newton Raphson. Inferência. Seleção de Variáveis e Análise de Resíduos. Regressão Logística. Análise de Sensibilidade e Especificidade. Curva ROC. Regressão de Poisson. Modelos com OFFSET. Análise de Dados Demográficos. Regressão Gama. Modelos de Regressão Não-Paramétricos. Splines. Árvores de Regressão. \\
+	Justificativa: As técnicas abordadas nessa disciplina são em sua maioria muito relevantes à Análise de Dados. Como a interação das áreas do Certificado com a Estatística é muito grande, é necessário que haja bastantes disciplinas voltadas para essa área. \\
+	% Sistemas Nebulosos
+	\textbf{ELE075 - Sistemas Nebulosos} \\
+	Ementa: Conjuntos nebulosos. Operações com conjuntos nebulosos. Relações nebulosas. Lógica nebulosa. Tópicos avançados em sistemas nebulosos: redes neurofuzzy, geração automática de regras. Aplicações: controle e identificação de falhas em processos. \\
+	Justificativa: Assim como Computação Evolucionária e Redes Neurais Artificiais, Sistemas Nebulosos são um tópico de estudo muito grande para a área de Inteligência Computacional, devendo portanto, ser abordado. \\
+	% Sistemas Especialistas
+	%\textbf{EEE043 - Sistemas Especialistas} \\
+	%Ementa: Fundamentos de inteligência artificial. Sistemas de produção e busca heurística. Sistemas especialistas: arquitetura, aquisição e representação de conhecimento. Linguagens e ferramentas de desenvolvimento. \\
+	%Justificativa: Uma abordagem para resolução de problemas de Inteligência Computacional é a utilização de sistemas especialistas. \\
+	% Multimídia
+	\textbf{ELT037 - Multimídia} \\
+	Ementa: Texto, formas de onda, imagens e vídeo. Produção de símbolos estatisticamente independentes. Codificação preditiva. Técnicas de codebook. Decomposições transformada em cossenos discreta; decomposição em componentes principais; decomposição em componentes independentes. Compressão de áudio, fala, imagem e vídeo. \\
+	Justificativa: Essa disciplina aborda técnicas úteis para Análise de Dados, já que trata basicamente de como informação em formato de multimídia é descrita. \\
+	% Aplicações de Processamento Paralelo
+	\textbf{ELE036 - Aplicações de Processamento Paralelo} \\
+	Ementa: Conceitos e definições básicos sobre processamento paralelo. Arquiteturas paralelas. Centros de computação de alto desempenho. Decomposição e balanceamento de carga. Solução de sistemas lineares utilizando lógica paralela. Técnicas para desenvolvimento de programas computacionais paralelos em diferentes arquiteturas. Aplicação de técnicas de paralelismo na solução de problemas de engenharia elétrica. \\
+	Justificativa: Para a resolução de problemas de Inteligência Computacional, que são frequentemente problemas de complexidade grande, é recorrente o uso de implementações que utilizam processamento paralelo. \\
+	% Introdução a Bancos de Dados
+	\textbf{DCC011 - Introdução a Bancos de Dados} \\
+	Ementa: Memória auxiliar; organização física e lógica. Métodos de acesso. Estruturas de arquivos. Manipulação de bancos de dados. Linguagens e pacotes. Recuperação de informação.. \\
+	Justificativa: Frequentemente é necessário acessar bancos de dados para resolver problemas com grandes volumes de dados, tanto para armazená-los quanto para adquirir ou analisar dados que já estão armazenados. \\
+	%Computação Evolucionária
+	%\textbf{ELE083 - Computação Evolucionária} \\
+	%Ementa: Princípios de adaptação dos seres vivos. Problemas com localidade fraca. Algoritmos de populações: estratégias evolutivas, algoritmo de "simulated annealing", algoritmos genéticos, algoritmos imunológicos, algoritmos de enxames, algoritmos de colônias de formigas, algoritmos meméticos, algoritmos de evolução diferencial. Generalização de princípios e outros algoritmos. Otimização mono - objetivo versus multiobjetivo. Algoritmos evolutivos de otimização multiobjetivo. Aplicações. \\
+	%Justificativa: A inclusão dessa disciplina ao Certificado de Estudos é justificada por se tratar de uma das grandes áreas em que a Inteligência Computacional pode ser dividida. \\
+	%Modelos Estatísticos e Inferência
+	%\textbf{ELE093 - Modelos Estatísticos e Inferência} \\
+	%Ementa: Estimação  Pontual  Paramétrica.  Distribuição  dos  Estimadores. Propriedades  dos  Estimadores. Estimação  Intervalar  Paramétrica. Testes  de  hipóteses:  Definições  básicas.  Formulação  de Neyman–Pearson.  Teste  da  razão de  verossimilhança.  Testes uniformemente  mais  poderosos. Testes usuais sobre os parâmetros da distribuição normal. \\
+	%Justificativa: As áreas de Inteligência Computacional e Análise de Dados fazem um uso muito intenso de métodos estatísticos, sendo portanto necessário uma carga horária maior nessa área. Métodos probabilísticos paramétricos e baseados em verossimilhança são de grande utilidade para resolver problemas de Inteligência Computacional. \\
+	% Introdução à Inteligência Computacional (Pós)
+	\textbf{EEE901 - Introdução à Inteligência Computacional} \\
+	Ementa: Introdução à inteligência computacional; representação de problemas; fundamentos de lógica para resolução de problemas. Conjuntos Nebulosos, operações com conjuntos nebulosos e relações nebulosas. Exemplo de aplicação de conjuntos nebulosos em engenharia. Princípios básicos, neurônios naturais e artificiais. Modelo artificial de McCulloch e Pitts e regra de Hebb. Perceptron e Adaline. \\
+	Justificativa: Como o próprio nome da disciplina diz, é abordado, de maneira introdutória o conjunto de técnicas utilizadas na área de Inteligência Computacional e seus princípios básicos. \\
+	% Redes Neurais Mestrado
+	%\textbf{EEE950 - Redes Neurais Artificiais: Teoria e Aplicações (Pós-graduação)} \\
+	%Ementa: Conceitos básicos, Neurônios no cérebro, Perceptrons, Memória matricial de correlação, modelos recorrentes, redes feed-forward multi-níveis, redes neurais sem peso, sistemas auto-organizativos. \\
+	%Justificativa: Devido à importância de Redes Neurais Artificiais ao assunto, entende-se que é necessário cursar uma disciplina mais avançadas sobre o assunto. \\
+	% Computação Evolucionária Mestrado
+	%\textbf{EEE882 - Computação Evolucionária (Pós-graduação)} \\
+	%Ementa: Modelagem de Problemas de Otimização. Computação Evolucionária. Algoritmos Evolucionários. Algoritmos Genéticos. Aplicações.. \\
+	%Justificativa: Como mencionado anteriormente, a área de Inteligência Computacional pode ser dividida em algumas diferentes áreas, uma das quais é a área de computação evolucionária. \\
+	%Estatística Multivariada
+	%\textbf{EST011 - Estatística Multivariada} \\
+	%Ementa: Vetores Aleatórios. Vetores de Média e Matrizes de Covariância e Correlação. Distribuição Normal Multivariada. Análise de Componentes Principais. Análise Fatorial. Análise de Conglomerados ou Agrupamentos. Escalonamento Multidimensional. Análise Discriminante. Análise Canônica. Análise de Correspondências. \\
+	%Justificativa: A compreensão dos assuntos que estão no escopo dessa disciplina são essenciais para a área de Análise de Dados. Além disso, algumas técnicas apresentadas possuem muitas aplicações à resolução de problemas de Inteligência Computacional. \\
+	%Estatística Geral
+	%\textbf{EST034 - Estatística Geral} \\
+	%Ementa: Comparação de dois tratamentos: Intervalos de Confiança, Testes de Hipóteses paramétricos e não paramétricos. Tabelas de contingência. Regressão linear simples: estimação dos parâmetros e validação do modelo. Correlação. Análise de variância com e dois fatores. \\
+	%Justificativa: Vários dos conteúdos abordados são fundamentais para Análise de Dados. \\
+	%Estatística Não-Paramétrica
+	%\textbf{EST080 - Estatística Não Paramétrica} \\
+	%Ementa: Métodos de Reamostragem: Jackknife e Bootstrap.; Comparação de 2 ou mais tratamentos - Amostras Independentes.; Comparação de 2 tratamentos - Amostras Emparelhadas. ; Blocos Aleatorizados Completos e Incompletos; Testes de Aleatoriedade e Independência.; Coeficientes de Correlação de Spearman.; Coeficientes de Concordância de Kendall e Kappa.; 8. Testes de Aderência.; Testes para comparação de dispersão ou medidas de escala.; 10. Introdução à Regressão Linear Não-Paramétrica. \\
+	%Justificativa: Os métodos de reamostragem abordados são bastante utilizados em Aprendizado de Máquina, área essa que possui bastante interseção tanto com Estatística quanto com Análise de Dados. \\
+	%Mineração de Dados
+	%\textbf{DCC057 - Mineração de Dados} \\
+	%Ementa: Processo de descoberta do conhecimento em bancos de dados. Conceitos básicos de ocleta e engenharia de dados. Técnicas de mineração de dados. Aspectos de implementação. Domínicos de aplicação. \\
+	%Justificativa: Muitas vezes problemas de Inteligência Computacional são resolvidos baseando-se - exclusivamente ou não - em dados. Sendo assim, para problemas com grandes volumes de dados, é de extrema importância a utilização de técnicas de mineração de dados para encontrar quais dados são mais relevantes ao problema. \\
+	%Inteligência Artificial
+	%\textbf{DCC028 - Inteligência Artificial} \\
+	%Ementa: Métodos de resolução de problemas. Representação do conhecimento usando lógica de predicados. Representações estruturadas do conhecimento. Sistemas avançados de resolução de problemas. Tópicos avançados. \\
+	%Justificativa: Essa disciplina se propõe a apresentar um panorama geral sobre a área de Inteligência Computacional, também chamada de Inteligência Artificial. \\
+	%Computação Natural
+	\textbf{DCC191 - Computação Natural} \\
+	Ementa: Computação inspirada na organização e funcionamento do corpo humano: redes neurais, sistemas imunológicos artificiais, sistemas endócrinos artificiais. Computação evolucionária: algoritmos genéticos, programação genética, estratégias evolucionárias. Computação baseada em interações sociais: colônias de formigas, exames de partículas. \\
+	Justificativa: A disciplina aborda muitos temas sobre computação evolucionária, uma d as grandes áreas em que a Inteligência Computacional pode ser dividida. Além disso aborda um pouco de outros temas pertinentes ao assunto, como redes neurais entre outros. \\
+	%Fundamentos Estatísticos Para Ciência dos Dados
+	\textbf{DCC030 - Tópicos em Ciência da Computação: Fundamentos Estatísticos para Ciência dos Dados} \\
+	Ementa: Revisão de Probabilidade: Regra de Bayes, Distribuições conjuntas e condicionais. Principais distribuições, Momentos e Convergência de variáveis aleatórias. Princípios de Inferência. Método de Máxima verossimilhança e Algoritmo EM. Intervalos de confiança e testes estatísticos. Alguns modelos de análise de dados. Selecao de Modelos: entropia e critério de informação de Akaike.\\
+	Justificativa: Essa disciplina aborda temas essenciais tanto para análise de dados, quanto para a área de Inteligência Computacional, já que ambas possuem relação bastante próxima com a estatística.\\
+	
+	\pagebreak
+	
+	\section{Solicitação} \label{sec:Sol}
+	O aluno \aluno, número de matrícula \matricula, regularmente matriculado no Curso de Graduação em \curso \ da Universidade Federal de Minas Gerais (UFMG), é o autor da proposta de matrícula no Certificado de Estudos em Inteligência Computacional e Análise de Dados, tendo como tutor o Professor \tutor \ , Professor do \departamento. \par
+	O aluno \aluno \  solicita ao Colegiado de \curso \ o deferimento da proposta. 
+	\\ \\ \\ \\
+	
+	\centering \today
+	
+	\begin{tabular}{c}
+		\\ \\ \\ \\	\\ \\
+		\hline
+		\\
+		\aluno \ (Proponente) \\
+		\\ \\ \\ \\ \\ \\ \\
+		\hline
+		\\
+		Professor \tutor \ (Tutor)\\
+		\departamento
+	\end{tabular}
+	
+\end{document}
