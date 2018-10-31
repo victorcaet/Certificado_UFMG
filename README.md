@@ -16,6 +16,6 @@ Observações importantes:
 É necessário fazer a conferência de alguns pontos:
 * Matérias que se encaixam como tópicos. (Ex. Tópicos em Engenharia Elétrica, Tópicos em Engenharia de Sistemas, etc.)
 * A parte de contexto institucional e exigências curriculares
-* Diretrizes que da resolução 001/2008
+* Diretrizes da resolução 001/2008
 * O template foi feito para Engenharia Elétrica. Talvez haja algum ponto específico que eu tenha esquecido de mudar.
 
