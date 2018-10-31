@@ -1,2 +1,3 @@
 # Certificado_UFMG
-Arquivos para o certificado de estudos em Inteligência Computacional e Análise de Dados para engenharia Elétrica, de Automação e de Sistemas, na UFMG
+
+Arquivos que servem como template para fazer uma proposta de certificado de estudos aberto em Inteligência Computacional e Análise de Dados para engenharia Elétrica, de Controle e Automação e de Sistemas, na UFMG.
