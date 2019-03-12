@@ -5,7 +5,7 @@ Arquivos que servem como template para fazer uma proposta de certificado de estu
 Para utilizar o arquivo, basta substituir as variáveis \aluno, \tutor, \departamento, \matricula e \curso por:
 Nome do aluno, Nome do Tutor, Departamento do tutor, Número de matrícula do aluno e Curso do aluno respectivamente.
 
-O arquivo foi feito para compilação em ambiente linux, não sei se funciona em Windows. Confira se as bibliotecas estão todas instaladas.
+O arquivo foi feito para compilação em ambiente linux, a compilação no Windows não foi testada.  importante conferir se as bibliotecas estão todas instaladas.
 Fazendo as alterações, basta compilar o arquivo:
 Abra o terminal no diretório que contém os arquivos PropostaCertificadoICAD.tex e logoUFMG.pdf e usar o comando:
  pdflatex PropostaCertificadoICAD.tex
@@ -17,5 +17,5 @@ Observações importantes:
 * Matérias que se encaixam como tópicos. (Ex. Tópicos em Engenharia Elétrica, Tópicos em Engenharia de Sistemas, etc.)
 * A parte de contexto institucional e exigências curriculares
 * Diretrizes da resolução 001/2008
-* O template foi feito para Engenharia Elétrica. Talvez haja algum ponto específico que eu tenha esquecido de mudar.
+* O template foi originalmente feito para Engenharia Elétrica. Para outras engenharias, é possível que haja modificações necessárias
 
